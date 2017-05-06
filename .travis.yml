@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - node
-  before scrpit :
+  before_scrpit :
     - npm install cucumber
     - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
   script:
