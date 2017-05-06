@@ -1,0 +1,21 @@
+{
+  "name": "cucumberjs",
+  "description": "**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.",
+  "main": "index.js",
+  "authors": [
+    "phu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

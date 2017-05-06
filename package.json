@@ -1,0 +1,29 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414.git"
+  },
+  "author": "phu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/seminar-cucumberjs_1412278_1412414#readme",
+  "dependencies": {
+    "cucumber": "^2.0.0-rc.9",
+    "express": "^4.15.2",
+    "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.29.0",
+    "cucumber": "^2.0.0-rc.9",
+    "selenium-webdriver": "^3.4.0"
+  }
+}
