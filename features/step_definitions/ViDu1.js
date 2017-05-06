@@ -27,17 +27,5 @@ defineSupportCode(function({Given, When, Then, setDefaultTimeout}) {
     }
   });
 
-  Given('I am on the www.w3schools.com', function() {
-    return this.driver.get('https://www.w3schools.com/');
-  });
 
-  When('I click on {stringInDoubleQuotes}', function (text) {
-    return this.driver.findElement({linkText: text}).then(function(element) {
-      return element.click();
-    });
-  });
-
-  Then('I should see the page to learn html', function () {
-    return this.driver.get('https://www.w3schools.com/html/default.asp');
-  });
 });
