@@ -6,3 +6,9 @@ before_scrpit:
     - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
 script:
     - npm test
+notifications:
+  email:
+    recipients:
+      - lam0196vn@gmail.com
+    on_success: never 
+    on_failure: always
