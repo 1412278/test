@@ -1,13 +1,17 @@
 language: node_js
 node_js:
 - node
+
+env:
+- PLATFORM=CHROME
 install:
 - npm install
 - npm install -g cucumber
 - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
-before_scrpit:
+
+
 script:
-    - npm test
+  - npm test
 notifications:
   email:
     recipients:

@@ -20,10 +20,3 @@ Feature: Ví dụ 1
         | so1 | so2 | so3 |
         |  15 |  20 |  35 |
         |   8 |   7 |  15 |
-
-    Scenario: click LEARN HTML on www.w3schools.com
-      Given I am on the www.w3schools.com
-      When I click on "LEARN HTML"
-      Then I should see the page to learn html
-      And I click on "JAVASCRIPT"
-      Then I Should see the page to learn javascript
