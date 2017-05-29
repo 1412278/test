@@ -7,9 +7,8 @@ env:
 install:
 - npm install
 - npm install -g cucumber
-- npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
-
-
+- npm install --save-dev cucumber@latest selenium-webdriver@3.0.1
+- npm install chromedriver
 script:
   - npm test
 notifications:
