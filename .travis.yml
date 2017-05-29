@@ -1,14 +1,16 @@
 language: node_js
 node_js:
 - node
+install:
+- npm install
+- npm install -g cucumber
+- npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
 before_scrpit:
-    - npm install -g cucumber
-    - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1 chromedriver@2.25.1
 script:
     - npm test
 notifications:
   email:
     recipients:
       - lam0196vn@gmail.com
-    on_success: never 
+    on_success: never
     on_failure: always
