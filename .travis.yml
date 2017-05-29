@@ -5,16 +5,11 @@ node_js:
 env:
 - PLATFORM=CHROME
 install:
-- npm install
 - npm install -g cucumber
 - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1
 - npm install chromedriver
 
 
-addons:
-  sauce_connect:
-  -  username: "lam0196vn"
-  -  access_key: "UDPT2017"
 script:
   - npm test
 notifications:
