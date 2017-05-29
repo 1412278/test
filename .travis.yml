@@ -9,12 +9,6 @@ install:
 - npm install -g cucumber
 - npm install --save-dev cucumber@latest selenium-webdriver@3.0.1
 - npm install chromedriver
-addons:
-  apt:
-    sources:
-    - google-chrome
-    packages:
-    - google-chrome-stable
 
 script:
   - npm test
